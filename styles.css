@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjYyNy1hZXctNDctdGVjaG5vbG9neWJhY2tncm91bmRfMS5qcGc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #070120;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nav a{
+    color: gold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
+  #nav a:hover{
+    transform: scale(1.5);
+  }
+
+  #nav img{
+    margin-right: 400px;
+}
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: #070120;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: xx-large;
+}
+.container2{
+  width: 800px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: rgba(9, 1, 26, 0.7);
+}
+.container2 h1{
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.container2 ul li{
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.container2:hover li{
+  color: aquamarine;
+  font-size: 30px;
+}
+.container2 button{
+    background-color: gold;
+    font-family: sans-serif;
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    text-decoration: none;
+    border: 3px solil #070120;
+    box-shadow: 0 0 40px #fff;
+    border-bottom-left-radius: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+button a{
+  text-decoration: none;
+  color: #070120;
+  font-size: xx-large;
+}
